@@ -1,0 +1,10 @@
+---
+- name: call roles for lamp
+  hosts: all
+  roles:
+   - geerlingguy.php
+   - geerlingguy.mysql
+   - geerlingguy.apache
+
+...
+
